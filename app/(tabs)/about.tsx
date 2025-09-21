@@ -3,7 +3,7 @@ import { StyleSheet, Text, View } from "react-native";
 const AboutScreen = () => {
     return (
         <View style={styles.container}>
-            <Text style={styles.text}>This is my change to the about screen</Text>
+            <Text style={styles.text}>This is my change to the about screen to see if Updates work automatically</Text>
         </View>
     )
 }

@@ -48,6 +48,15 @@
         "projectId": "386f47ca-a329-4799-959b-79db899f2076"
       }
     },
-    "owner": "allanrs19"
+    "owner": "allanrs19",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "requestHeaders": {
+        "expo-channel-name": "preview"
+      },
+      "url": "https://u.expo.dev/386f47ca-a329-4799-959b-79db899f2076"
+    }
   }
 }
