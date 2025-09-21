@@ -10,6 +10,7 @@ type Props = {
 export default function Button({ label, theme, onPress }: Props) {
 
     // Comment on button component
+    // New comment on the button component
 
     if (theme === 'primary') {
         return (

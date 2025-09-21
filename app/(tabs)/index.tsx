@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import { ImageSourcePropType, Platform, StyleSheet, View } from "react-native";
+import { ImageSourcePropType, Platform, StyleSheet, Text, View } from "react-native";
 import * as MediaLibrary from 'expo-media-library';
 import { captureRef } from 'react-native-view-shot';
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
@@ -99,6 +99,7 @@ export default function Index() {
                     {pickedEmoji && <EmojiSticker imageSize={40} stickerSource={pickedEmoji} />}
                 </View>
             </View>
+            <Text>This is a new test</Text>
             {showAppOptions ? (
                 <View style={styles.optionsContainer}>
                     <View style={styles.optionsRow}>
