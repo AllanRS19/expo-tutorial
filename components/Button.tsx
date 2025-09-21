@@ -8,6 +8,9 @@ type Props = {
 };
 
 export default function Button({ label, theme, onPress }: Props) {
+
+    // Comment on button component
+
     if (theme === 'primary') {
         return (
             <View
